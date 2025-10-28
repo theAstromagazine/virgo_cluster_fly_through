@@ -137,7 +137,7 @@ def save_zoom_circle_zoom(img, out_dir, CALC_X, CALC_Y, zoom_in_frames, circle_f
 
 def main():
     # source image path
-    SRC = r"C:\Users\path_to_your_image\virgo_cluster_image.fits"
+    SRC = r"C:\Users\path_to_your_image\virgo_cluster_image.tif"
 
     # import image
     img = pyvips.Image.new_from_file(SRC, access="random")
